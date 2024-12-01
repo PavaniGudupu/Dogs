@@ -1,0 +1,159 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('images/black.jpg'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* This will keep the background image fixed while scrolling */
+    color: #ead300;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #ead300;
+    color: rgb(0, 0, 0);
+    padding: 10px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .navbar-brand {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.navbar .navbar-nav {
+    list-style: none;
+    display: flex;  /* This ensures the list items are arranged horizontally */
+    gap: 20px;      /* Space between the items */
+    padding: 0;
+    margin: 0;
+}
+
+.navbar .navbar-nav li {
+    display: inline;  /* Optional here, flex is already handling the layout */
+}
+
+.navbar .navbar-nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.navbar .navbar-nav a:hover {
+    text-decoration: underline;
+}
+
+
+.heading {
+    color: #ead300;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.2rem;
+    color: #ffffff;
+}
+
+
+/* Image Styles */
+img {
+    border: 5px solid #ead300;
+    border-radius: 10px;
+    max-width: 90%;
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, border-color 0.3s ease; /* Adds smooth transition */
+}
+
+img:hover {
+    transform: scale(1.05); /* Slight zoom effect */
+    border-color: #ff6600; /* Change border color on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Make shadow more prominent */
+}
+
+
+/* Footer Styles */
+footer {
+    margin-top: 20px;
+    background-color: #ead300;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.heading {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+input[type="text"] {
+    width: 80%;
+    max-width: 400px;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    background-color: #f9f9f9;
+    color: #333;
+    transition: border 0.3s ease, box-shadow 0.3s ease;
+}
+
+input[type="text"]:focus {
+    border-color: #0056b3;
+    box-shadow: 0 0 5px rgba(0, 86, 179, 0.4);
+    outline: none;
+}
+
+button {
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 8px;
+    background-color: #e8cd20;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #d4b21e;
+    transform: scale(1.05);
+}
+
+button:focus {
+    outline: none;
+}
