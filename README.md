@@ -22,10 +22,10 @@ Clone the repository.
 Run the HTML file on your local server.
 and browse the below URL'S
 
-http://localhost:3000/
-http://localhost:3000/all
-http://localhost:3000/hound
-http://localhost:3000/houndList
+    http://localhost:3000/
+    http://localhost:3000/all
+    http://localhost:3000/hound
+    http://localhost:3000/houndList
 
 Enjoy exploring the world of dog breeds!
 
