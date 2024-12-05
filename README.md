@@ -1,3 +1,9 @@
+![Screenshot 2024-12-05 194916](https://github.com/user-attachments/assets/4ec050f2-1528-49fd-93e4-d152f7083a4b)
+![Screenshot 2024-12-05 194843](https://github.com/user-attachments/assets/be205032-4004-4853-abd8-3e362c69482b)
+![Screenshot 2024-12-05 194830](https://github.com/user-attachments/assets/7ca34f1a-39b1-42d5-8a53-3ca37820652b)
+![Screenshot 2024-12-05 194819](https://github.com/user-attachments/assets/43f031b3-5303-4191-99ae-3eb6fcb0ec7a)
+![Screenshot 2024-12-05 194754](https://github.com/user-attachments/assets/567b6f7b-9cfc-4596-ad72-f5ba265cceac)
+![Screenshot 2024-12-05 194736](https://github.com/user-attachments/assets/956817d4-ce6d-4f3f-9999-bde5e3c0b04c)
 
 Breed Dog API 🐾
 
